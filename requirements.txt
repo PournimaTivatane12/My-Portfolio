@@ -1,0 +1,15 @@
+Flask==2.3.3             # Replace with your actual Flask version
+gunicorn==20.1.0         # If deploying on services like Heroku
+requests==2.31.0         # For HTTP requests if used
+Jinja2==3.1.2            # Template engine (usually with Flask)
+
+pip freeze > requirements.txt
+
+SQLAlchemy==2.0.20
+psycopg2==2.9.7
+
+Flask-RESTful==0.3.9
+Flask-WTF==1.1.1
+
+pylint==2.17.4
+pytest==7.4.2
